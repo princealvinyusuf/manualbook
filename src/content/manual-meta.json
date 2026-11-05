@@ -1,0 +1,359 @@
+{
+  "title": "Panduan Penggunaan dan Operasional Karirhub",
+  "subtitle": "Handbook Admin Karirhub Console dan Manualbook Pengguna Karirhub",
+  "version": "1.0",
+  "updatedAt": "21 Oktober 2026",
+  "headings": [
+    {
+      "id": "panduan-penggunaan-dan-operasional-karirhub",
+      "text": "PANDUAN PENGGUNAAN DAN OPERASIONAL KARIRHUB",
+      "level": 1
+    },
+    {
+      "id": "handbook-admin-karirhub-console-dan-manualbook-pengguna-karirhub",
+      "text": "Handbook Admin Karirhub Console dan Manualbook Pengguna Karirhub",
+      "level": 1
+    },
+    {
+      "id": "list-of-update",
+      "text": "LIST OF UPDATE",
+      "level": 1
+    },
+    {
+      "id": "petunjuk-penggunaan-panduan",
+      "text": "PETUNJUK PENGGUNAAN PANDUAN",
+      "level": 1
+    },
+    {
+      "id": "1-mengenal-struktur-panduan",
+      "text": "1. MENGENAL STRUKTUR PANDUAN",
+      "level": 2
+    },
+    {
+      "id": "2-contoh-perbedaan",
+      "text": "2. CONTOH PERBEDAAN",
+      "level": 2
+    },
+    {
+      "id": "3-kapan-menggunakan-masing-masing-bagian",
+      "text": "3. KAPAN MENGGUNAKAN MASING-MASING BAGIAN",
+      "level": 2
+    },
+    {
+      "id": "4-kenapa-harus-ada-handbook-dan-manualbook",
+      "text": "4. KENAPA HARUS ADA HANDBOOK DAN MANUALBOOK",
+      "level": 2
+    },
+    {
+      "id": "a-handbook",
+      "text": "A. HANDBOOK",
+      "level": 1
+    },
+    {
+      "id": "1-pendahuluan",
+      "text": "1. PENDAHULUAN",
+      "level": 2
+    },
+    {
+      "id": "2-ruang-lingkup-handbook",
+      "text": "2. RUANG LINGKUP HANDBOOK",
+      "level": 2
+    },
+    {
+      "id": "3-petunjuk-membaca-handbook",
+      "text": "3. PETUNJUK MEMBACA HANDBOOK",
+      "level": 2
+    },
+    {
+      "id": "4-mengenal-karirhub-console",
+      "text": "4. MENGENAL KARIRHUB CONSOLE",
+      "level": 2
+    },
+    {
+      "id": "5-dashboard-overview",
+      "text": "5. DASHBOARD OVERVIEW",
+      "level": 2
+    },
+    {
+      "id": "6-pencari-kerja",
+      "text": "6. PENCARI KERJA",
+      "level": 2
+    },
+    {
+      "id": "7-pelamar-kerja",
+      "text": "7. PELAMAR KERJA",
+      "level": 2
+    },
+    {
+      "id": "8-verifikasi-pemberi-kerja",
+      "text": "8. VERIFIKASI PEMBERI KERJA",
+      "level": 2
+    },
+    {
+      "id": "9-pemberi-kerja-individual",
+      "text": "9. PEMBERI KERJA – INDIVIDUAL",
+      "level": 2
+    },
+    {
+      "id": "10-pemberi-kerja-instansi-pemerintah-k-l",
+      "text": "10. PEMBERI KERJA – INSTANSI PEMERINTAH (K/L)",
+      "level": 2
+    },
+    {
+      "id": "11-undangan-pemberi-kerja-k-l",
+      "text": "11. UNDANGAN PEMBERI KERJA K/L",
+      "level": 2
+    },
+    {
+      "id": "12-lowongan-pekerjaan-industri",
+      "text": "12. LOWONGAN PEKERJAAN – INDUSTRI",
+      "level": 2
+    },
+    {
+      "id": "13-lowongan-pekerjaan-umkm",
+      "text": "13. LOWONGAN PEKERJAAN – UMKM",
+      "level": 2
+    },
+    {
+      "id": "14-admin-karirhub",
+      "text": "14. ADMIN KARIRHUB",
+      "level": 2
+    },
+    {
+      "id": "15-undangan-admin-karirhub",
+      "text": "15. UNDANGAN ADMIN KARIRHUB",
+      "level": 2
+    },
+    {
+      "id": "16-blacklist-pemberi-kerja",
+      "text": "16. BLACKLIST PEMBERI KERJA",
+      "level": 2
+    },
+    {
+      "id": "17-profil-dinas",
+      "text": "17. PROFIL DINAS",
+      "level": 2
+    },
+    {
+      "id": "18-konfigurasi-posisi-dinas",
+      "text": "18. KONFIGURASI POSISI DINAS",
+      "level": 2
+    },
+    {
+      "id": "19-konfigurasi-dokumen",
+      "text": "19. KONFIGURASI DOKUMEN",
+      "level": 2
+    },
+    {
+      "id": "b-manualbook",
+      "text": "B. MANUALBOOK",
+      "level": 1
+    },
+    {
+      "id": "admin",
+      "text": "ADMIN",
+      "level": 1
+    },
+    {
+      "id": "1-cara-memantau-data-melalui-dashboard",
+      "text": "1. CARA MEMANTAU DATA MELALUI DASHBOARD",
+      "level": 2
+    },
+    {
+      "id": "2-cara-mengelola-dan-meninjau-data-pencari-kerja",
+      "text": "2. CARA MENGELOLA DAN MENINJAU DATA PENCARI KERJA",
+      "level": 2
+    },
+    {
+      "id": "3-cara-memantau-data-pelamar-kerja",
+      "text": "3. CARA MEMANTAU DATA PELAMAR KERJA",
+      "level": 2
+    },
+    {
+      "id": "4-cara-melakukan-pemeriksaan-verifikasi-pemberi-kerja",
+      "text": "4. CARA MELAKUKAN PEMERIKSAAN VERIFIKASI PEMBERI KERJA",
+      "level": 2
+    },
+    {
+      "id": "5-cara-melakukan-verifikasi-lowongan-pekerjaan",
+      "text": "5. CARA MELAKUKAN VERIFIKASI LOWONGAN PEKERJAAN",
+      "level": 2
+    },
+    {
+      "id": "6-cara-meninjau-pemberi-kerja-individual",
+      "text": "6. CARA MENINJAU PEMBERI KERJA INDIVIDUAL",
+      "level": 2
+    },
+    {
+      "id": "7-cara-meninjau-pemberi-kerja-instansi-pemerintah-k-l",
+      "text": "7. CARA MENINJAU PEMBERI KERJA INSTANSI PEMERINTAH (K/L)",
+      "level": 2
+    },
+    {
+      "id": "8-cara-membuat-undangan-pemberi-kerja-k-l",
+      "text": "8. CARA MEMBUAT UNDANGAN PEMBERI KERJA K/L",
+      "level": 2
+    },
+    {
+      "id": "9-cara-memantau-lowongan-pekerjaan-industri",
+      "text": "9. CARA MEMANTAU LOWONGAN PEKERJAAN INDUSTRI",
+      "level": 2
+    },
+    {
+      "id": "10-cara-memantau-lowongan-pekerjaan-umkm",
+      "text": "10. CARA MEMANTAU LOWONGAN PEKERJAAN UMKM",
+      "level": 2
+    },
+    {
+      "id": "11-cara-mengelola-admin-karirhub",
+      "text": "11. CARA MENGELOLA ADMIN KARIRHUB",
+      "level": 2
+    },
+    {
+      "id": "12-cara-membuat-dan-memantau-undangan-admin-karirhub",
+      "text": "12. CARA MEMBUAT DAN MEMANTAU UNDANGAN ADMIN KARIRHUB",
+      "level": 2
+    },
+    {
+      "id": "13-cara-meninjau-dan-membatalkan-blacklist-pemberi-kerja",
+      "text": "13. CARA MENINJAU DAN MEMBATALKAN BLACKLIST PEMBERI KERJA",
+      "level": 2
+    },
+    {
+      "id": "14-cara-mengelola-profil-dinas",
+      "text": "14. CARA MENGELOLA PROFIL DINAS",
+      "level": 2
+    },
+    {
+      "id": "15-cara-mengelola-konfigurasi-posisi-dinas",
+      "text": "15. CARA MENGELOLA KONFIGURASI POSISI DINAS",
+      "level": 2
+    },
+    {
+      "id": "16-cara-meninjau-konfigurasi-dokumen",
+      "text": "16. CARA MENINJAU KONFIGURASI DOKUMEN",
+      "level": 2
+    },
+    {
+      "id": "pencari-kerja",
+      "text": "PENCARI KERJA",
+      "level": 1
+    },
+    {
+      "id": "1-cara-mendaftarkan-akun-sebagai-pencari-kerja-di-siapkerja",
+      "text": "1. CARA MENDAFTARKAN AKUN SEBAGAI PENCARI KERJA DI SIAPKERJA",
+      "level": 2
+    },
+    {
+      "id": "2-cara-melengkapi-profil-pencari-kerja-di-siapkerja",
+      "text": "2. CARA MELENGKAPI PROFIL PENCARI KERJA DI SIAPKERJA",
+      "level": 2
+    },
+    {
+      "id": "3-cara-melakukan-lamaran-di-karirhub-dan-memantau-status-lamaran",
+      "text": "3. CARA MELAKUKAN LAMARAN DI KARIRHUB DAN MEMANTAU STATUS LAMARAN",
+      "level": 2
+    },
+    {
+      "id": "pemberi-kerja",
+      "text": "PEMBERI KERJA",
+      "level": 1
+    },
+    {
+      "id": "1-cara-registrasi-pemberi-kerja-yang-memiliki-wlkp-dan-nib",
+      "text": "1. CARA REGISTRASI PEMBERI KERJA YANG MEMILIKI WLKP DAN NIB",
+      "level": 2
+    },
+    {
+      "id": "2-cara-registrasi-pemberi-kerja-non-nib-instansi-pemerintah-k-l",
+      "text": "2. CARA REGISTRASI PEMBERI KERJA NON-NIB INSTANSI PEMERINTAH (K/L)",
+      "level": 2
+    },
+    {
+      "id": "3-cara-membuat-postingan-lowongan-baru",
+      "text": "3. CARA MEMBUAT POSTINGAN LOWONGAN BARU",
+      "level": 2
+    },
+    {
+      "id": "4-cara-memantau-lamaran-yang-masuk-dan-melakukan-sorting-kandidat",
+      "text": "4. CARA MEMANTAU LAMARAN YANG MASUK DAN MELAKUKAN SORTING KANDIDAT",
+      "level": 2
+    },
+    {
+      "id": "c-troubleshooting-dan-faq",
+      "text": "C.TROUBLESHOOTING DAN FAQ",
+      "level": 1
+    },
+    {
+      "id": "admin-2",
+      "text": "ADMIN",
+      "level": 1
+    },
+    {
+      "id": "3-1-pengelolaan-admin-dan-akses-sistem",
+      "text": "3.1 Pengelolaan Admin dan Akses Sistem",
+      "level": 2
+    },
+    {
+      "id": "3-2-verifikasi-pemberi-kerja",
+      "text": "3.2 Verifikasi Pemberi Kerja",
+      "level": 2
+    },
+    {
+      "id": "3-3-verifikasi-lowongan",
+      "text": "3.3 Verifikasi Lowongan",
+      "level": 2
+    },
+    {
+      "id": "pencari-kerja-2",
+      "text": "PENCARI KERJA",
+      "level": 1
+    },
+    {
+      "id": "3-4-akun-dan-akses-siapkerja-karirhub",
+      "text": "3.4 Akun dan Akses SIAPKerja/Karirhub",
+      "level": 2
+    },
+    {
+      "id": "3-5-profil-pencari-kerja",
+      "text": "3.5 Profil Pencari Kerja",
+      "level": 2
+    },
+    {
+      "id": "3-6-pencarian-lowongan-dan-lamaran",
+      "text": "3.6 Pencarian Lowongan dan Lamaran",
+      "level": 2
+    },
+    {
+      "id": "3-7-keamanan-lowongan",
+      "text": "3.7 Keamanan Lowongan",
+      "level": 2
+    },
+    {
+      "id": "pemberi-kerja-2",
+      "text": "PEMBERI KERJA",
+      "level": 1
+    },
+    {
+      "id": "3-8-akun-dan-akses",
+      "text": "3.8 Akun dan Akses",
+      "level": 2
+    },
+    {
+      "id": "3-9-registrasi-dan-verifikasi-pemberi-kerja",
+      "text": "3.9 Registrasi dan Verifikasi Pemberi Kerja",
+      "level": 2
+    },
+    {
+      "id": "3-10-pembuatan-dan-status-lowongan",
+      "text": "3.10 Pembuatan dan Status Lowongan",
+      "level": 2
+    },
+    {
+      "id": "3-11-lamaran-dan-kandidat",
+      "text": "3.11 Lamaran dan Kandidat",
+      "level": 2
+    }
+  ],
+  "imageCount": 246
+}
