@@ -40,7 +40,7 @@ const imageConverter = mammoth.images.imgElement(async (image) => {
     await writeFile(path.join(assetsDir, fileName), buffer)
     writtenImages.add(fileName)
   }
-  return { src: `/manual-assets/${fileName}` }
+  return { src: `manual-assets/${fileName}` }
 })
 
 const result = await mammoth.convertToHtml(
