@@ -10,7 +10,7 @@ npm install
 npm run dev
 ```
 
-Gunakan kata sandi `080899`. Akses tidak disimpan, sehingga halaman akan
+Gunakan kata sandi `8899`. Akses tidak disimpan, sehingga halaman akan
 meminta kata sandi lagi setelah dimuat ulang atau dibuka kembali.
 
 ## Perintah

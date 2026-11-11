@@ -18,7 +18,7 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
 
-    if (password === '080899') {
+    if (password === '8899') {
       setError('')
       onUnlock()
       return

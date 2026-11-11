@@ -23,7 +23,7 @@ describe('PasswordGate', () => {
     const onUnlock = vi.fn()
 
     render(<PasswordGate onUnlock={onUnlock} />)
-    await user.type(screen.getByLabelText('Kata sandi'), '080899')
+    await user.type(screen.getByLabelText('Kata sandi'), '8899')
     await user.click(screen.getByRole('button', { name: 'Buka panduan' }))
 
     expect(onUnlock).toHaveBeenCalledOnce()
