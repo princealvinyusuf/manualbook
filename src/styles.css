@@ -13,6 +13,8 @@
   --green: #0d6a50;
   --green-dark: #084e3b;
   --green-soft: #e5f3ee;
+  --blue: #2563eb;
+  --blue-dark: #1d4ed8;
   --lime: #c8ed66;
   --paper: #fff;
   --header-height: 72px;
@@ -132,6 +134,15 @@ a {
   transform: translateY(-1px);
   background: var(--green-dark);
   box-shadow: 0 9px 22px rgba(8, 78, 59, 0.18);
+}
+
+.download-button {
+  background: var(--blue);
+}
+
+.download-button:hover {
+  background: var(--blue-dark);
+  box-shadow: 0 9px 22px rgba(37, 99, 235, 0.22);
 }
 
 .icon-button {
@@ -879,9 +890,14 @@ a {
 
 .hero-action-card .primary-button {
   width: 100%;
-  color: var(--green-dark);
-  background: #fff;
+  color: #fff;
+  background: var(--blue);
   font-size: 0.78rem;
+}
+
+.hero-action-card .primary-button:hover {
+  background: var(--blue-dark);
+  box-shadow: 0 9px 22px rgba(37, 99, 235, 0.22);
 }
 
 .article-toolbar {
