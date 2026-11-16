@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from 'react'
 import {
   ArrowUp,
   BookOpen,
-  Download,
   FileText,
   Menu,
   PanelLeftClose,
@@ -16,8 +15,6 @@ import {
 } from './components/TableOfContents'
 import manualHtml from './content/manual.html?raw'
 import manualMeta from './content/manual-meta.json'
-
-const PDF_URL = 'https://paskerid.kemnaker.go.id/manualbook.pdf'
 
 type SearchSection = SearchResult & {
   searchableText: string
@@ -186,17 +183,6 @@ function App() {
           onQueryChange={setSearchQuery}
           onNavigate={navigateTo}
         />
-
-        <a
-          className="download-button header-download"
-          href={PDF_URL}
-          target="_blank"
-          rel="noreferrer"
-          download
-        >
-          <Download aria-hidden="true" />
-          <span>Unduh PDF</span>
-        </a>
       </header>
 
       <TableOfContents
@@ -239,24 +225,6 @@ function App() {
                 </span>
                 <span>Diperbarui {manualMeta.updatedAt}</span>
               </div>
-            </div>
-            <div className="hero-action-card">
-              <span className="hero-card-icon" aria-hidden="true">
-                <Download />
-              </span>
-              <div>
-                <strong>Butuh versi offline?</strong>
-                <p>Unduh panduan lengkap dalam format PDF.</p>
-              </div>
-              <a
-                href={PDF_URL}
-                target="_blank"
-                rel="noreferrer"
-                download
-                className="primary-button"
-              >
-                Unduh PDF
-              </a>
             </div>
           </section>
 

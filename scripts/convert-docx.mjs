@@ -141,11 +141,25 @@ const html = article.innerHTML
   .replaceAll('�', '–')
   .trim()
 
+const plainText = article.textContent?.replace(/\s+/g, ' ') ?? ''
+const version = plainText.match(/Versi:\s*(\d+(?:\.\d+)*)/)?.[1] ?? '1.0'
+const updateHeading = [...article.querySelectorAll('h1, h2, h3')].find(
+  (heading) => heading.textContent?.trim().toUpperCase() === 'LIST OF UPDATE',
+)
+const updateDates = [...(updateHeading?.nextElementSibling?.querySelectorAll('tr') ?? [])]
+  .map((row) =>
+    [...row.querySelectorAll('th, td')]
+      .map((cell) => cell.textContent?.trim().replace(/\s+/g, ' ') ?? '')
+      .at(1),
+  )
+  .filter((value) => /^\d{1,2}\s+\p{L}+\s+\d{4}$/u.test(value ?? ''))
+const updatedAt = updateDates.at(-1) ?? '21 Oktober 2026'
+
 const metadata = {
   title: 'Panduan Penggunaan dan Operasional Karirhub',
   subtitle: 'Handbook Admin Karirhub Console dan Manualbook Pengguna Karirhub',
-  version: '1.0',
-  updatedAt: '21 Oktober 2026',
+  version,
+  updatedAt,
   headings,
   imageCount: writtenImages.size,
 }

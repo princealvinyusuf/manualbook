@@ -29,5 +29,4 @@ file tersebut hanya digunakan oleh development server dan masih mengarah ke
 `/src/main.tsx`.
 
 > Perlindungan kata sandi berjalan di sisi browser dan berfungsi sebagai
-> pembatas akses visual, bukan autentikasi server. URL PDF yang digunakan juga
-> tetap dapat diakses langsung.
+> pembatas akses visual, bukan autentikasi server.

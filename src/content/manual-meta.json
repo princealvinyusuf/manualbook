@@ -1,8 +1,8 @@
 {
   "title": "Panduan Penggunaan dan Operasional Karirhub",
   "subtitle": "Handbook Admin Karirhub Console dan Manualbook Pengguna Karirhub",
-  "version": "1.0",
-  "updatedAt": "21 Oktober 2026",
+  "version": "1.1",
+  "updatedAt": "6 November 2026",
   "headings": [
     {
       "id": "panduan-penggunaan-dan-operasional-karirhub",
@@ -10,39 +10,9 @@
       "level": 1
     },
     {
-      "id": "handbook-admin-karirhub-console-dan-manualbook-pengguna-karirhub",
-      "text": "Handbook Admin Karirhub Console dan Manualbook Pengguna Karirhub",
-      "level": 1
-    },
-    {
       "id": "list-of-update",
       "text": "LIST OF UPDATE",
       "level": 1
-    },
-    {
-      "id": "petunjuk-penggunaan-panduan",
-      "text": "PETUNJUK PENGGUNAAN PANDUAN",
-      "level": 1
-    },
-    {
-      "id": "1-mengenal-struktur-panduan",
-      "text": "1. MENGENAL STRUKTUR PANDUAN",
-      "level": 2
-    },
-    {
-      "id": "2-contoh-perbedaan",
-      "text": "2. CONTOH PERBEDAAN",
-      "level": 2
-    },
-    {
-      "id": "3-kapan-menggunakan-masing-masing-bagian",
-      "text": "3. KAPAN MENGGUNAKAN MASING-MASING BAGIAN",
-      "level": 2
-    },
-    {
-      "id": "4-kenapa-harus-ada-handbook-dan-manualbook",
-      "text": "4. KENAPA HARUS ADA HANDBOOK DAN MANUALBOOK",
-      "level": 2
     },
     {
       "id": "a-handbook",
@@ -281,7 +251,7 @@
     },
     {
       "id": "c-troubleshooting-dan-faq",
-      "text": "C.TROUBLESHOOTING DAN FAQ",
+      "text": "C. TROUBLESHOOTING DAN FAQ",
       "level": 1
     },
     {
@@ -355,5 +325,5 @@
       "level": 2
     }
   ],
-  "imageCount": 246
+  "imageCount": 259
 }

@@ -4,7 +4,7 @@ import { describe, expect, it } from 'vitest'
 import App from './App'
 
 describe('Karirhub manual portal', () => {
-  it('shows the protected reader, navigation, search, and PDF actions', async () => {
+  it('shows the protected reader, navigation, and search', async () => {
     const user = userEvent.setup()
 
     render(<App />)
@@ -24,14 +24,8 @@ describe('Karirhub manual portal', () => {
     ).toBeInTheDocument()
     expect(screen.getByLabelText('Daftar isi')).toBeInTheDocument()
     expect(screen.getByLabelText('Cari di dalam panduan')).toBeInTheDocument()
-
-    const pdfLinks = screen.getAllByRole('link', { name: 'Unduh PDF' })
-    expect(pdfLinks).toHaveLength(2)
-    pdfLinks.forEach((link) => {
-      expect(link).toHaveAttribute(
-        'href',
-        'https://paskerid.kemnaker.go.id/manualbook.pdf',
-      )
-    })
+    expect(
+      screen.queryByRole('link', { name: 'Unduh PDF' }),
+    ).not.toBeInTheDocument()
   })
 })
