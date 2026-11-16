@@ -964,6 +964,34 @@ a {
   box-shadow: 0 10px 30px rgba(23, 33, 29, 0.09);
 }
 
+.manual-article img.cover-logo {
+  width: 240px;
+  max-width: 68%;
+  max-height: none;
+  margin: 8px auto 18px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.manual-article p.cover-title {
+  max-width: 760px;
+  margin: 8px auto 22px;
+  color: #13231c;
+  font-family: 'Manrope', Arial, sans-serif;
+  font-size: clamp(1.85rem, 3.4vw, 2.6rem);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.035em;
+  text-align: center;
+}
+
+.manual-article p.cover-title em {
+  font-style: normal;
+  font-weight: 800;
+}
+
 .manual-article .figure-caption,
 .manual-article img + br {
   color: #75807b;

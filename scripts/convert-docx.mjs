@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto'
-import { mkdir, rm, writeFile } from 'node:fs/promises'
+import { access, mkdir, rm, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import mammoth from 'mammoth'
@@ -121,6 +121,26 @@ article.querySelectorAll('img').forEach((image) => {
   image.loading = 'lazy'
   image.decoding = 'async'
 })
+
+const coverLogoPath = path.join(rootDir, 'public', 'cover-logo.png')
+let hasCoverLogo = false
+try {
+  await access(coverLogoPath)
+  hasCoverLogo = true
+} catch {
+  hasCoverLogo = false
+}
+
+const coverImage = article.querySelector('h1.document-title + p + p img')
+if (coverImage && hasCoverLogo) {
+  coverImage.setAttribute('src', 'cover-logo.png')
+  coverImage.classList.add('cover-logo')
+  coverImage.alt = 'Logo Kementerian Ketenagakerjaan'
+  const titleParagraph = coverImage.parentElement?.previousElementSibling
+  if (titleParagraph?.textContent?.includes('Handbook Admin Karirhub Console')) {
+    titleParagraph.classList.add('cover-title')
+  }
+}
 
 article.querySelectorAll('a').forEach((link) => {
   const href = link.getAttribute('href')
